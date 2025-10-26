@@ -30,7 +30,7 @@ It follows a complete ML workflow:
 
 ## 📁 Repository Structure
 ├── IRIS.csv # Dataset
-├── IRIS.ipynb # Notebook (EDA + model + tuning)
+├── IRIS_final.ipynb # Notebook (EDA + model + tuning)
 ├── app.py # Streamlit app for prediction
 ├── best_model.keras # Saved tuned model
 ├── scaler.pkl # StandardScaler used during training
@@ -59,22 +59,22 @@ pip install streamlit tensorflow scikit-learn joblib numpy pandas
 # Run the app
 streamlit run app.py
 ```
-
+---
 ## 🖥️ Streamlit App Interface
 
 Input sliders for:
 
-Sepal Length (cm)
+ - Sepal Length (cm)
 
-Sepal Width (cm)
+ - Sepal Width (cm)
 
-Petal Length (cm)
+ - Petal Length (cm)
 
-Petal Width (cm)
+ - Petal Width (cm)
 
-Predicts flower type instantly
+* Predicts flower type instantly
 
-Displays prediction and success animation
+* Displays prediction and success animation
 
 
 ## 🎥 Demo (View raw will download the video locally)
